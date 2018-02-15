@@ -1,0 +1,40 @@
+.container {
+	width:800px;
+	margin:0 auto;
+}
+
+.container h1 {
+	text-align: center;
+}
+
+.password {
+	margin:0 auto;
+	height:50px;
+	color:#101010;
+	font-size: 24px;
+	background-color: #00FF00;
+	padding:10px;
+	border-radius: 5px;
+}
+
+form {
+	width:320px;
+	margin:20px auto;
+	font-size:18px;
+}
+
+form #submit {
+	margin-left:70px;
+	margin-top:20px;
+}
+
+.xkcd_info {
+	margin:0 auto;
+	text-align: center;
+}
+.xkcd_image img {
+	margin-top:10px;
+    display:block;
+    margin:auto;
+    width:50%;
+}
