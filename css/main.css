@@ -17,6 +17,16 @@
     border-radius: 5px;
 }
 
+.message {
+    margin: 0 auto;
+    height: 50px;
+    color: #101010;
+    font-size: 20px;
+    background-color: #ffbd63;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 form {
     width: 400px;
     margin: 20px auto;
@@ -30,7 +40,7 @@ form #submit {
 
 .info {
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 
 .image img {
