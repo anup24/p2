@@ -1,5 +1,6 @@
 <?php
 require "logic.php";
+require "validate.php";
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +14,7 @@ require "logic.php";
     <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
-    <script language="javascript">
+    <script>
         function enableDropdown(bEnable, addSymbol){
             document.getElementById(addSymbol).disabled = !bEnable
         }
