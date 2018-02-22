@@ -33,7 +33,7 @@ require "validate.php";
     </div>
 
     <form action="index.php" method="POST">
-        <p class='info'>Please enter a number between 1 and 8 for number of words </p>
+        <p class='info'>Please enter a number between 1 & 8 for number of words </p>
         <div class="info">
             &nbsp;&nbsp;&nbsp;&nbsp;
             <label for="num_of_word">Number of words:</label>
