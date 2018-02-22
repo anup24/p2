@@ -15,11 +15,11 @@ require "validate.php";
     <link rel="stylesheet" href="css/main.css">
 
     <script>
-        function enableDropdown(bEnable, addSymbol){
+        function enableDropdown(bEnable, addSymbol) {
             document.getElementById(addSymbol).disabled = !bEnable
         }
+
         function submitForm() {
-        alert('hi');
             document.form.submit();
         }
     </script>
@@ -33,10 +33,15 @@ require "validate.php";
     </div>
 
     <form action="index.php" method="POST">
+        <p class='info'>Please enter number of words to start</p>
         <div class="info">
             &nbsp;&nbsp;&nbsp;&nbsp;
             <label for="num_of_word">Number of words:</label>
             <input type="text" id="num_of_word" name="num_of_word">
+        </div>
+        <div class="info">
+            <input type="radio" id="capitalize" name="capitalize"/>
+            <label for="capitalize">Capitalize First letter</label>
         </div>
         <div class="info">
             <input type="checkbox" id="add_number" name="add_number"/>
@@ -56,14 +61,14 @@ require "validate.php";
                 </select>
             </label>
         </div>
-        <input class="btnbtn btn-default" type="submit" value="Generate a password" />
+        <input class="btnbtn btn-default" type="submit" value="Generate a password"/>
     </form>
 
     <?php if (!empty($message)) { ?>
         <div class="message">
             <span><?php echo $message; ?></span>
         </div>
-    <?php } else if (!empty($password)){ ?>
+    <?php } else if (!empty($password)) { ?>
         <div class="password">
             <span><b>Your password: </b></span>
             <span><?php echo $password; ?></span>
