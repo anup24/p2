@@ -1,13 +1,8 @@
 This is the second project from DWA15 course.
 
 # Project 2
-+ By: *your first and last name*
++ By: *Anup Shetye*
 + Production URL: <http://p2.dwa15.site>
 
 ## Outside resources
-
-
-## Code style divergences
-
-
-## Notes for instructor
+Image used in the project - https://imgs.xkcd.com/comics/password_strength.png
